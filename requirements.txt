@@ -1,0 +1,51 @@
+# Requisitos básicos
+pandas>=1.3.0
+numpy>=1.20.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0
+
+# Machine Learning y Optimización
+tensorflow>=2.8.0
+xgboost>=1.5.0
+imbalanced-learn>=0.8.0
+keras>=2.8.0
+hyperopt>=0.2.7  # Optimización bayesiana
+optuna>=2.10.0   # Optimización de hiperparámetros
+
+# Procesamiento de datos y backtesting
+vectorbt>=0.24.0  # Backtesting vectorizado
+ta-lib>=0.4.0     # Indicadores técnicos
+pandas-ta>=0.3.14b # Indicadores técnicos adicionales
+numba>=0.56.0     # Aceleración JIT
+scipy>=1.7.0      # Estadísticas y optimización
+
+# Procesamiento paralelo y rendimiento
+joblib>=1.1.0     # Paralelización
+psutil>=5.9.0     # Monitoreo de recursos
+ray>=2.2.0        # Computación distribuida
+dask>=2023.3.0    # Procesamiento paralelo de datos
+
+# Visualización y análisis
+plotly>=5.13.0    # Gráficos interactivos
+seaborn>=0.12.0   # Visualización estadística
+ipywidgets>=8.0.0 # Widgets interactivos
+
+# Gestión de datos y almacenamiento
+h5py>=3.8.0       # Almacenamiento HDF5
+tables>=3.8.0     # Optimización PyTables
+pyarrow>=11.0.0   # Procesamiento columnar
+
+# Utilidades y herramientas
+requests>=2.27.0
+cryptography>=36.0.0
+python-dotenv>=0.19.0  # Variables de entorno
+tqdm>=4.65.0          # Barras de progreso
+loguru>=0.7.0         # Logging avanzado
+
+# Desarrollo y testing
+pytest>=7.0.0
+pytest-cov>=4.0.0     # Cobertura de código
+black>=22.1.0         # Formateo de código
+flake8>=4.0.0         # Linting
+mypy>=1.0.0           # Type checking
+hypothesis>=6.75.3    # Property-based testing
