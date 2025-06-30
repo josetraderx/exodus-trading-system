@@ -1,92 +1,61 @@
-# Exodus Trading System
+Exodus trading system
+Automated trading system based on advanced strategies for the cryptocurrency market.
 
-Sistema automatizado de trading basado en estrategias avanzadas para el mercado de criptomonedas.
-
-## 🚀 Características
-
-- Backtesting avanzado con VectorBT
-- Análisis temporal de estrategias
-- Optimización de parámetros
-- Múltiples estrategias de trading
-- Validación y pruebas de estrés
-- Análisis de rendimiento y métricas
-- Integración con múltiples exchanges
-
-## 📁 Estructura del Proyecto
-
-```
+🚀 Characteristics
+Advanced Backtesting with Vectorbt
+Temporary Strategies Analysis
+Parameter optimization
+Multiple trading strategies
+Validation and stress tests
+Performance analysis and metrics
+Integration with multiple exchanges
+📁 Project structure
 exodus/
-├── core/           # Funcionalidad central del sistema
-├── strategies/     # Implementaciones de estrategias de trading
-├── indicators/     # Indicadores técnicos personalizados
-├── backtesting/   # Motor de backtesting y análisis
-├── optimization/  # Optimización de parámetros
-├── validation/    # Validación y pruebas
-├── models/        # Modelos predictivos
-├── data/          # Gestión de datos
-├── utils/         # Utilidades generales
-└── docs/          # Documentación
+├── Core/ # Central Functionality of the System
+├── Strategies/ # Trading Strategies Implementations
+├── indicators/ # personalized technical indicators
+├── Backtesting/ # Backtesting and Analysis Motor
+├── Optimization/ # parameter optimization
+├── Validation/ # Validation and Tests
+├── Models/ # predictive models
+├── Data/ # Data Management
+├── Users/ # General Profits
+└── Docs/ # Documentation
 
-```
+🛠️ Installation
+Clone the repository:
+git clone https://github.com/jostraderx/exodus-trading-system.git
+CD Exodus-Trading-System
+Install dependencies:
+Pip install -r requirements.txt
+📊 Use
+Backtesting
+Python Main.py-Mode Backtest-Strategy Name_estrategia-Symbol Avax-Use
+Optimization
+Python Main.py-Mode Optimize-Strategy Name_estrategia-Symbol Avax-Use
+Stress tests
+python stress_test.py --Strategy name_strategia
+📈 Results and metrics
+The system automatically generates:
 
-## 🛠️ Instalación
+Performance graphics
+Trading metrics (Sharpe, Sortino, Win Rate, etc.)
+Drawdown analysis
+Active statistics
+🔍 Tests
+To execute the tests:
 
-1. Clonar el repositorio:
-```bash
-git clone https://github.com/josetraderx/exodus-trading-system.git
-cd exodus-trading-system
-```
+Pytest
+📝 License
+This project is private and confidential.
 
-2. Instalar dependencias:
-```bash
-pip install -r requirements.txt
-```
+👥 Contributions
+To contribute to the project:
 
-## 📊 Uso
-
-### Backtesting
-```python
-python main.py --mode backtest --strategy nombre_estrategia --symbol AVAX-USD
-```
-
-### Optimización
-```python
-python main.py --mode optimize --strategy nombre_estrategia --symbol AVAX-USD
-```
-
-### Pruebas de Estrés
-```python
-python stress_test.py --strategy nombre_estrategia
-```
-
-## 📈 Resultados y Métricas
-
-El sistema genera automáticamente:
-- Gráficos de rendimiento
-- Métricas de trading (Sharpe, Sortino, Win Rate, etc.)
-- Análisis de drawdown
-- Estadísticas por activo
-
-## 🔍 Tests
-
-Para ejecutar las pruebas:
-```bash
-pytest
-```
-
-## 📝 Licencia
-
-Este proyecto es privado y confidencial.
-
-## 👥 Contribuciones
-
-Para contribuir al proyecto:
-1. Fork del repositorio
-2. Crear una rama para tu feature
-3. Commit de tus cambios
-4. Push a la rama
-5. Crear un Pull Request
-
-## ⚠️ Disclaimer
-
-Este software es para uso exclusivo de trading algorítmico. Opera bajo tu propio riesgo.
+Fork of the repository
+Create a branch for your feature
+Commit of your changes
+Push to the branch
+Create a Pull Request
+⚠️ Disclaimer
+This software is for the exclusive use of algorithmic trading. It operates at your own risk.
